@@ -16,8 +16,8 @@
   "main": "index.js",
   "dependencies": {},
   "scripts": {
-	"dev": "webpack-dev-server --open --config webpack.dev.js",
-	"build": "webpack --config webpack.prod.js"
+	"dev": "webpack --config webpack.config.js",
+	"build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
